@@ -1,0 +1,72 @@
+# Node modules
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+
+# Local env files
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Coverage reports
+coverage/
+
+# Babel cache
+.babelrc.cjs
+.babelrc.js
+.babelrc.json
+
+# Cache
+.cache/
+.vuepress/dist
+.vuepress/.cache
+
+# Storybook
+.storybook-out/
+out/
+
+# VS Code test snapshots
+*.snap
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+
+# Nuxt (caso use)
+.nuxt/
+output/
+
+# Vite (caso use)
+.vite/
