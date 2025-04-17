@@ -14,6 +14,9 @@ import BarraLateral from './components/BarraLateral.vue';
 
 export default defineComponent({
   name: 'App',
+  components: {
+    BarraLateral
+  }
 });
 </script>
 
