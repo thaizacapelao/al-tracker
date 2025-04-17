@@ -13,43 +13,48 @@
         />
       </div>
       <div class="column">
-        <section>
-          <strong>00:00:00</strong>
-        </section>
-        <button class="button">
-          <span class="icon">
-            <i class="fas fa-play"></i>
-          </span>
-          <span>play</span>
-        </button>
-        <button class="button">
-          <span class="icon">
-            <i class="fas fa-stop"></i>
-          </span>
-          <span>stop</span>
-        </button>
+        <div
+          class="is-flex is-align-items-center is-justify-content-space-between"
+        >
+          <section>
+            <strong>00:00:00</strong>
+          </section>
+          <button class="button">
+            <span class="icon">
+              <i class="fas fa-play"></i>
+            </span>
+            <span>play</span>
+          </button>
+          <button class="button">
+            <span class="icon">
+              <i class="fas fa-stop"></i>
+            </span>
+            <span>stop</span>
+          </button>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent } from "vue";
 
 export default defineComponent({
-  name: 'Formulario',
+  name: "Formulario",
 });
 </script>
 
 <style>
 .formulario {
   background-color: rgb(255, 255, 255);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px rgba(129, 129, 129, 0.5);
 }
 
 .formulario input {
   background-color: rgb(255, 255, 255);
   border-color: rgb(221, 220, 220);
+  color: rgb(105, 105, 105);
 }
 
 .formulario input::placeholder {
@@ -59,22 +64,15 @@ export default defineComponent({
 .formulario button {
   background-color: rgb(255, 255, 255);
   border-color: rgb(221, 220, 220);
-  color: rgb(105, 105, 105);
+  color: rgb(92, 91, 91);
 }
 
 .formulario button:hover {
   background-color: rgb(214, 214, 214);
-  transition: 0.9s;
+  transition: 0.7s ease-in-out;
 }
 
 .formulario strong {
   color: rgb(105, 105, 105);
 }
-
-
-
-
-
-
-
 </style>
