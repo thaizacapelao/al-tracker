@@ -13,7 +13,7 @@
         />
       </div>
       <div class="column">
-        <Temporizador/>
+        <Temporizador />
       </div>
     </div>
   </div>
