@@ -26,4 +26,9 @@ header {
     height: auto;
   }
 }
+
+img {
+  border-radius: 7%;
+}
+
 </style>
