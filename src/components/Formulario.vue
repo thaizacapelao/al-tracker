@@ -39,6 +39,7 @@ export default defineComponent({
       console.log('Tarefa finalizada!')
       console.log(tempoDecorrido)
       console.log(this.descricao)
+      this.descricao = ''
     }
   }
 });
