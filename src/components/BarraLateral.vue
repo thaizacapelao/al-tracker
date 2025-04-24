@@ -17,7 +17,7 @@ export default defineComponent({
 header {
   padding: 1rem;
   background: #705043;
-  width: 100%;
+  width: 56%;
   height: 100vh;
   box-shadow: 0px 0px 50px rgba(129, 129, 129, 0.5);
   z-index: 1;
@@ -33,7 +33,6 @@ header {
 img {
   border-radius: 15%;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
-
 }
 
 </style>

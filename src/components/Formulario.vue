@@ -47,6 +47,8 @@ export default defineComponent({
 
 <style>
 .formulario {
+  margin-top: 2rem;
+  margin-right: 2rem;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 0px 10px rgba(129, 129, 129, 0.5);
 }
@@ -64,7 +66,7 @@ export default defineComponent({
 .formulario button {
   background-color: rgb(255, 255, 255);
   border-color: rgb(221, 220, 220);
-  color: rgb(92, 91, 91);
+  color: rgba(92, 91, 91, 0.63);
 }
 
 .formulario button:hover {
