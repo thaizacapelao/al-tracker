@@ -33,7 +33,7 @@ export default defineComponent({
 
 <style scoped>
 .box {
-    background-color: #FAF0CA;
+    background-color: #f8f3dc;
     border-color: rgb(221, 220, 220);
     margin-right: 2rem;
     color: rgb(105, 105, 105);

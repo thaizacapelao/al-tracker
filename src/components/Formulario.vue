@@ -76,7 +76,4 @@ export default defineComponent({
   transition: background-color 0.7s ease-in-out;
 }
 
-.formulario strong {
-  color: rgb(105, 105, 105);
-}
 </style>
