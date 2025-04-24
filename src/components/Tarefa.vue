@@ -5,10 +5,10 @@
                 Descrição da tarefa
             </div>
             <div class="column">
-            <Cronometro :tempoEmSegundos="15" class="descricao"/>
+                <Cronometro :tempoEmSegundos="15" class="descricao" />
+            </div>
         </div>
     </div>
-</div>
 </template>
 
 <script lang="ts">
@@ -24,16 +24,15 @@ export default defineComponent({
 
 <style scoped>
 .box {
-background-color: rgb(255, 255, 255);
-  border-color: rgb(221, 220, 220);
-  margin-right: 2rem;
+    background-color: #FAF0CA;
+    border-color: rgb(221, 220, 220);
+    margin-right: 2rem;
 
-  color: rgb(105, 105, 105);
-  box-shadow: 0px 0px 10px rgba(129, 129, 129, 0.5);
-}   
+    color: rgb(105, 105, 105);
+    box-shadow: 0px 0px 10px rgba(129, 129, 129, 0.5);
+}
 
 .descricao {
     color: rgb(105, 105, 105);
 }
-
 </style>
