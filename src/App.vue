@@ -63,6 +63,8 @@ main {
   --bg-box: #f8f3dc;
   --bg-box-color: rgb(105, 105, 105);
   --bg-box-shadow: 0px 0px 10px rgba(129, 129, 129, 0.5);
+  --bg-button-alterando-tema: #8dabc1e3;
+  --bg-button-alterando-tema-hover: #738c9ee3;
 }
 
 main.modo-escuro {
@@ -75,6 +77,8 @@ main.modo-escuro {
   --bg-box: #969077;
   --bg-box-color:rgb(255, 255, 255);
   --bg-box-shadow: 0px 0px 10px rgba(34, 34, 34, 0.5);
+  --bg-button-alterando-tema: #212123e3;
+  --bg-button-alterando-tema-hover: #19191ae3;
 }
 
 .lista {

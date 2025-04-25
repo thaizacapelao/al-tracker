@@ -51,7 +51,7 @@ export default defineComponent({
 
 .formulario {
   margin: 2rem 2rem 0 2rem;
-  box-shadow: 0px 0px 10px rgba(129, 129, 129, 0.5);
+  box-shadow: var(--bg-formulario-shadow);
   color: var(--texto-primario);
   background-color: var(--bg-formulario);
 }

@@ -58,16 +58,16 @@ img {
 }
 
 button {
-  background-color: #b19f98e3;
+  background-color: var(--bg-button-alterando-tema);
   color: #fff;
-  border: none;
+  border: 1px solid #fff;
   padding: 17px 20px;
   border-radius: 50%;
   margin-top: 2rem;
 }
 
 button:hover {
-  background-color: #d1c0b9e3;
+  background-color: var(--bg-button-alterando-tema-hover);
 }
 
 
