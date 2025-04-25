@@ -17,7 +17,8 @@ export default defineComponent({
 header {
   padding: 1rem;
   background: #705043e3;
-  width: 80%;
+  width: 100%;
+
   height: 100vh;
   box-shadow: 0px 0px 50px rgba(129, 129, 129, 0.842);
   z-index: 1;

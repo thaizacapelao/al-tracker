@@ -1,5 +1,5 @@
 <template>
-  <main class="columns is-gapless is-multiline">
+  <main class="columns is-gapless is-multiline ">
     <div class="column is-one-quarter">
       <BarraLateral/>
     </div>
@@ -46,26 +46,20 @@ export default defineComponent({
       this.tarefas.push(tarefa);
     }
   },
-  mounted() {
-    document.documentElement.classList.add('modo-escuro');
-  }
+
 });
 </script>
 
 <style>
 main {
-  --bg-primario: #fff;
-  --texto-primario: #000;
+  --bg-primario: #f5f5f5;
+  --texto-primario: #afafaf;
 }
 
-html.modo-escuro, body.modo-escuro {
-  --bg-primario: #63615e98;
-  --texto-primario: #ddd;
-}
-
-#app {
-  height: 100%;
-  background-color: var(--bg-primario) !important;
+main.modo-escuro {
+  --bg-primario: #343435;
+  --texto-primario: #b1b1b1;
+  --bg-formulario: #303031;
 }
 
 .lista {
@@ -74,6 +68,10 @@ html.modo-escuro, body.modo-escuro {
 
 strong {
   color: rgb(105, 105, 105) !important;
+}
+
+.conteudo {
+  background-color: var(--bg-primario);
 }
 
 </style>

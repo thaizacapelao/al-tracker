@@ -22,7 +22,7 @@ export default defineComponent({
 .box {
     background-color: #f8f3dc;
     border-color: rgb(221, 220, 220);
-    margin-right: 2rem;
+    margin: 1rem 2rem 0 2rem;
     color: rgb(105, 105, 105);
     box-shadow: 0px 0px 10px rgba(129, 129, 129, 0.5);
 }
