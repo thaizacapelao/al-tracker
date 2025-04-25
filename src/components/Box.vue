@@ -20,11 +20,12 @@ export default defineComponent({
 
 <style scoped>
 .box {
-    background-color: #f8f3dc;
+    background-color: var(--bg-box);
     border-color: rgb(221, 220, 220);
     margin: 1rem 2rem 0 2rem;
-    color: rgb(105, 105, 105);
-    box-shadow: 0px 0px 10px rgba(129, 129, 129, 0.5);
+    color: var(--bg-box-color);
+    box-shadow: var(--bg-box-shadow);
 }
+
 
 </style>

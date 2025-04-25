@@ -59,7 +59,7 @@ export default defineComponent({
 .formulario input {
   background-color: rgb(255, 255, 255);
   border-color: rgb(221, 220, 220);
-  color: rgb(105, 105, 105);
+  color: var(--texto-formulario);
 }
 
 .formulario input::placeholder {

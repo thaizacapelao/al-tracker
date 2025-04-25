@@ -39,11 +39,10 @@ export default defineComponent({
 <style scoped>
 header {
   padding: 1rem;
-  background: #816155e3;
+  background: var(--bg-barra-lateral);
   width: 100%;
   height: 100vh;
   box-shadow: 0px 0px 50px rgba(129, 129, 129, 0.842);
-  z-index: 1;
   text-align: center;
 }
 @media only screen and (max-width: 768px) {
@@ -66,5 +65,10 @@ button {
   border-radius: 50%;
   margin-top: 2rem;
 }
+
+button:hover {
+  background-color: #d1c0b9e3;
+}
+
 
 </style>

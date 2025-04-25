@@ -57,12 +57,24 @@ export default defineComponent({
 main {
   --bg-primario: #f5f5f5;
   --texto-primario: #afafaf;
+  --texto-formulario: #afafaf;
+  --bg-formulario-shadow: 0px 0px 10px rgba(129, 129, 129, 0.5);
+  --bg-barra-lateral: #816155e3;
+  --bg-box: #f8f3dc;
+  --bg-box-color: rgb(105, 105, 105);
+  --bg-box-shadow: 0px 0px 10px rgba(129, 129, 129, 0.5);
 }
 
 main.modo-escuro {
   --bg-primario: #343435;
-  --texto-primario: #b1b1b1;
-  --bg-formulario: #303031;
+  --texto-primario: #f5f3f3;
+  --texto-formulario: #afaeae;
+  --bg-formulario: #9e9e9e;
+  --bg-formulario-shadow: 0px 0px 10px rgba(34, 34, 34, 0.5);
+  --bg-barra-lateral: #382a25e3;
+  --bg-box: #969077;
+  --bg-box-color:rgb(255, 255, 255);
+  --bg-box-shadow: 0px 0px 10px rgba(34, 34, 34, 0.5);
 }
 
 .lista {
