@@ -22,9 +22,9 @@ export default defineComponent({
     computed: {
       textoBotao() {
         if(this.modoEscuroAtivo) {
-        return 'Desativar modo escuro'
+        return '🌙'
       }
-      return 'Ativar modo escuro'
+      return '🔆'
     }
   },
     methods: {
@@ -61,8 +61,10 @@ img {
 button {
   background-color: #b19f98e3;
   color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
+  border: none;
+  padding: 17px 20px;
+  border-radius: 50%;
+  margin-top: 2rem;
 }
 
 </style>
