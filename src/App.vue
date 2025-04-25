@@ -3,7 +3,7 @@
     <div class="column is-one-quarter">
       <BarraLateral/>
     </div>
-    <div class="column is-three-quarter">
+    <div class="column is-three-quarter conteudo">
       <Formulario @aoSalvarTarefa="salvarTarefa"/>
       <div class="lista">
         <Tarefa v-for="(tarefa, index) in tarefas" :key="index" :tarefa="tarefa"/>
@@ -13,7 +13,7 @@
       </div>
     </div>
   </main>
-</template>S
+</template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
@@ -45,28 +45,35 @@ export default defineComponent({
     salvarTarefa(tarefa: ITarefa) {
       this.tarefas.push(tarefa);
     }
+  },
+  mounted() {
+    document.documentElement.classList.add('modo-escuro');
   }
 });
 </script>
 
 <style>
-html, body {
-  background-color: white !important;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+main {
+  --bg-primario: #fff;
+  --texto-primario: #000;
+}
+
+html.modo-escuro, body.modo-escuro {
+  --bg-primario: #63615e98;
+  --texto-primario: #ddd;
 }
 
 #app {
   height: 100%;
-  background-color: white;
+  background-color: var(--bg-primario) !important;
 }
 
 .lista {
-padding: 1.25rem;
+  padding: 1.25rem;
 }
 
 strong {
   color: rgb(105, 105, 105) !important;
 }
+
 </style>
