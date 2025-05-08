@@ -58,16 +58,17 @@ img {
 }
 
 button {
-  background-color: var(--bg-button-alterando-tema);
+  background: var(--bg-button);
   color: #fff;
-  border: 1px solid #fff;
+  border: var(--border-button);
   padding: 17px 20px;
   border-radius: 50%;
   margin-top: 2rem;
+  box-shadow: var(--box-shadow-button);
 }
 
 button:hover {
-  background-color: var(--bg-button-alterando-tema-hover);
+  background: var(--bg-button-alterando-tema-hover);
 }
 
 

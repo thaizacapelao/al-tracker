@@ -63,8 +63,11 @@ main {
   --bg-box: #f8f3dc;
   --bg-box-color: rgb(105, 105, 105);
   --bg-box-shadow: 0px 0px 10px rgba(129, 129, 129, 0.5);
-  --bg-button-alterando-tema: #8dabc1e3;
-  --bg-button-alterando-tema-hover: #738c9ee3;
+  --bg-button-alterando-tema: #a0bfd6;
+  --bg-button-alterando-tema-hover: linear-gradient(to bottom, #7991a3 5%, #684721 100%);
+  --box-shadow-button: 0px 2px 0px 0px #c38050;
+  --border-button: 2px solid #634a41e3;
+  --bg-button: linear-gradient(to bottom, #8ca8bd 5%, #7e5629 100%);
 }
 
 main.modo-escuro {
@@ -78,7 +81,10 @@ main.modo-escuro {
   --bg-box-color:rgb(255, 255, 255);
   --bg-box-shadow: 0px 0px 10px rgba(34, 34, 34, 0.5);
   --bg-button-alterando-tema: #212123e3;
-  --bg-button-alterando-tema-hover: #19191ae3;
+  --bg-button-alterando-tema-hover: linear-gradient(to bottom, #3c3c3fe3 5%, #3c3c5ce3 100%);
+  --box-shadow-button: 0px 2px 0px 0px #816451e3;
+  --border-button: 2px solid #2f231be3;
+  --bg-button: linear-gradient(to bottom, #2f2f31e3 5%, #383855e3 100%);
 }
 
 .lista {
