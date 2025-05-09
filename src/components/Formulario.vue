@@ -77,4 +77,9 @@ export default defineComponent({
   transition: background-color 0.7s ease-in-out;
 }
 
+.formulario button:disabled {
+  transition: none;
+  background-color: rgba(92, 91, 91, 0.63);
+}
+
 </style>
