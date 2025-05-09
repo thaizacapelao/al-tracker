@@ -62,7 +62,7 @@ main {
   --bg-barra-lateral: #816155e3;
   --bg-box: #f8f3dc;
   --bg-box-color: rgb(105, 105, 105);
-  --bg-box-shadow: 0px 0px 10px rgba(129, 129, 129, 0.5);
+  --bg-box-shadow: 0px 0px 10px 0px rgba(129, 129, 129, 0.5);
   --bg-button-alterando-tema: #a0bfd6;
   --bg-button-alterando-tema-hover: linear-gradient(to bottom, #7991a3 5%, #684721 100%);
   --box-shadow-button: 0px 2px 0px 0px #c38050;
